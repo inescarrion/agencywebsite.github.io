@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Agency - Contact</title>
+        <meta name="description" content="Fake company website for HTML & CSS Subject (contact page)">
+        <meta name="keywords" content="developers, design, business, digital marketing">
+        <meta name="author" content="Inés Carrión Orosa">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a href="#main" class="skip-link">Skip to Main content</a>
+            <div id="header-content">
+                <div id="header-logo">
+                    <a href="index.html">
+                            <img id="logo" src="images/logo.svg" alt="Agency logo">
+                    </a>
+                </div>
+                <nav id="main-navigation">
+                    <ul>
+                        <li id="active-page"><a href="index.html">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <a class="button-link" href="contact.html">
+                    <div id="header-contact-button" class="button">
+                        <div id="header-contact-icon" class="button-icon">
+                            <img src="images/header-contact-icon.png" alt="Contact us (phone icon)">
+                        </div>
+                        <div id="header-contact-text" class="button-text">
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </header>
+        <main id="main">
+            <div id="page-title">
+                <div class="container">
+                    <h1>Contact</h1>
+                    <p>We provide services from our offices in Washington. You can visit our office or drop us 
+                        an email. We will be happy to meet you in person or online.</p>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52983.55059947308!2d-98.52728606109359!3d33.903251986413196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8652db0b7d1ca639%3A0x3b22e12b908fe9ed!2sWichita%20Falls%2C%20Texas%2076301%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1668535767811!5m2!1ses!2ses" 
+                width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+            <div id="contact-address">
+                <address class="container">
+                    <div id="phone-container">
+                        <figure>
+                            <div>
+                                <img src="images/phone.svg" alt="Phone number (phone icon)">
+                            </div>
+                            <figcaption class="red-text">Phone</figcaption>
+                        </figure>
+                        <a href="tel:+12345678900">+1 (234) 567-89-00</a>
+                    </div>
+                    <div>
+                        <figure>
+                            <div>
+                                <img src="images/email.svg" alt="Email address (letter icon)">
+                            </div>
+                            <figcaption class="red-text">Email</figcaption>
+                        </figure>
+                        <a href="mailto:info@agency.com">info@agency.com</a>
+                    </div>
+                    <div id="address-container">
+                        <figure>
+                            <div>
+                                <img src="images/compass.svg" alt="Address (compass icon)">
+                            </div>
+                            <figcaption class="red-text">Address</figcaption>
+                        </figure>
+                        <p>2247 Lunetta Street, TX 76301</p>
+                    </div>
+                </address>
+            </div>
+            <div id="contact-form">
+                <div class="container">
+                    <form action="#" method="post">
+                        <h2>Get In Touch</h2>
+                        <p>Fields with <abbr title="required">*</abbr> are required.</p>
+                        <div id="form-columns">
+                            <div>
+                                <label for="name">Your name <abbr title="required">*</abbr></label>
+                                <input type="text" id="name" name="name" required>
+                                <label for="email">Your email <abbr title="required">*</abbr></label>
+                                <input type="email" id="email" name="email" required>
+                                <label for="phone">Your phone number <abbr title="required">*</abbr></label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div>
+                                <label for="interests">I am interested in... <abbr title="required">*</abbr></label>
+                                <select id="interests" name="interests" required>
+                                    <option hidden disabled selected value label=" "></option>
+                                    <option value="design">Design</option>
+                                    <option value="development">Development</option>
+                                    <option value="marketing">Marketing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                                <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+                                <label for="privacy-policy">I have read and accept the <a href="#" class="red-link">privacy 
+                                    policy</a> <abbr title="required">*</abbr></label>
+                                <button type="submit">Submit now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div id="footer-navigation">
+                    <h2 id="agency-text">Agency</h2>
+                    <nav>
+                        <h3 class="red-text">MENU</h3>
+                        <ul>
+                            <li>
+                                <a href="index.html">About us</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <h3 class="red-text">SERVICES</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Design</a>
+                            </li>
+                            <li>
+                                <a href="#">Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Marketing</a>
+                            </li>
+                            <li>
+                                <a href="#">See More</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav id="footer-social">
+                        <h3 class="red-text">OUR SOCIAL NETWORKS</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/agency" title="Follow us on Facebook">
+                                    <img src="images/facebook.svg" alt="Follow us on Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/agency" title="Follow us on Twitter">
+                                    <img src="images/twitter.svg" alt="Follow us on Twitter">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/agency" title="Follow us on Instagram">
+                                    <img src="images/instagram.svg" alt="Follow us on Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="footer-legal">
+                    <p>Copyright &copy; 2022 <a class="red-link" href="https://laaqiq.gumroad.com">Laaqiq</a>. All Rights Reserved.</p>
+                    <div>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <p>Header background image on the bog by <a class="red-link" href="https://www.freepik.com/free-vector/larkspur-by-william-morris_3413160.htm#query=texture&position=23&from_view=keyword">rawpixel.com</a> on <a class="red-link" href="https://www.freepik.com/">Freepik.com</a></p>
+            </div>
+        </footer>
+    </body>
+
+</html>
