@@ -12,4 +12,4 @@
 
 <a href="https://inescarrion.github.io/agencywebsite.github.io/">View the website</a>
 
-<p>This project was done for <em>HTML & CSS</em> subject of the <a href="https://www.uoc.edu/portal/es/index.html">Universitat Oberta de Catalunya</a> (UOC)</p>
+<p>This project was done for *HTML & CSS* subject of the <a href="https://www.uoc.edu/portal/es/index.html">Universitat Oberta de Catalunya</a> (UOC).</p>
