@@ -4,12 +4,10 @@
 
 <p>Website with information about a fake company called Agency. Only three pages can be visited:
     <ul>
-        <li>About us (<code>index.html</code>)</li>
-        <li>Color Theory for Designers - blog article (<code>color-theory-for-designers.html</code>)</li>
-        <li>Contact (<code>contact.html</code>)</li>
+        <li><a href="https://inescarrion.github.io/agencywebsite.github.io/index.html">About us</a> (<code>index.html</code>)</li>
+        <li><a href="https://inescarrion.github.io/agencywebsite.github.io/color-theory-for-designers.html">Color Theory for Designers - blog article</a> (<code>color-theory-for-designers.html</code>)</li>
+        <li><a href="https://inescarrion.github.io/agencywebsite.github.io/contact.html">Contact</a> (<code>contact.html</code>)</li>
     </ul>
 </p>
-
-<a href="https://inescarrion.github.io/agencywebsite.github.io/">View the website</a>
 
 <p>This project was made for the subject "HTML & CSS" taught at <a href="https://www.uoc.edu/portal/es/index.html">Universitat Oberta de Catalunya</a> (UOC).</p>
